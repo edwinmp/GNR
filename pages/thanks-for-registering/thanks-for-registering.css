@@ -1,0 +1,107 @@
+@import url("../styles.css");
+
+.general-button {
+    margin-top: 32px;
+}
+
+.h1-content {
+    margin-top: 33px;
+    width: 100%;
+}
+
+.span-content {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.thanks-for-registering-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.component-content-center {
+    width: 550px;
+}
+
+.component-content-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.general-button-small {
+    width: 172px;
+}
+
+b {
+    color: #475C6D;
+    margin-left: 3px;
+}
+
+.additional-content-top {
+    width: 192px;
+    height: 25px;
+    background: url("../../assets/img/blue-dots-background.svg");
+}
+
+.blue-dot-left-line {
+    height: 230px;
+    width: 24px;
+    background: url("../../assets/img/blue-dots-background.svg");
+
+}
+
+.additional-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.additional-content-bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.additional-content-bottom .span-content {
+    width: 216px;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.orange-btn-additional {
+    width: 213px;
+    height: 48px;
+    border: 1px solid #C45308;
+    font-family: Averta-Bold, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #C45308;
+    background: none;
+    margin-bottom: 16px;
+}
+
+.blue-btn-additional {
+    width: 262px;
+    height: 48px;
+    border: 1px solid #007495;
+    font-family: Averta-Bold, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #007495;
+    background: none;
+}

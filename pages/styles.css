@@ -1,0 +1,205 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 180px;
+    width: 100%;
+    background: #475C6D;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+footer {
+    height: 84px;
+    width: 100%;
+    background: #E3EBF5;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 10%;
+    font-family: Averta-Regular, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #475C6D;
+}
+
+.logo-img {
+    margin-left: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.general-button-header {
+    width: 105px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10%;
+    padding: 0;
+    margin-top: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.content {
+    box-sizing: border-box;
+    min-height: calc(100vh - 264px);
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.h1-content {
+    font-family: Averta-Bold, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: #475C6D;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-hint {
+    background: #F1F3F7;
+    width: 360px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    box-sizing: border-box;
+    color: #475C6D;
+    font-family: Averta-Regular, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.form-input input {
+    width: 360px;
+    height: 44px;
+    box-sizing: border-box;
+    text-indent: 15px;
+    font-family: Averta-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #B2D8D7;
+}
+
+.form-input input::placeholder {
+    color: #C4C4C4;
+}
+
+.form-input label {
+    font-family: Averta-Regular, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #475C6D;
+}
+
+.general-button {
+    background: #C45308;
+    width: 360px;
+    height: 48px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Averta-Bold, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.general-button-small {
+    background: #C45308;
+    width: 93px;
+    height: 48px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Averta-Bold, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.general-button-additional {
+    font-family: Averta-Bold, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration-line: underline;
+    background: none;
+    border: none;
+    color: #C45308;
+    cursor: pointer;
+}
+
+.bottom-additional-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.bottom-additional-content span {
+    color: #475C6D;
+    font-family: Averta-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.span-content {
+    font-family: Averta-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475C6D;
+    width: 360px;
+    margin-bottom: 24px;
+}
+
+.component-content-left {
+    padding-right: 24px;
+    padding-top: 40px;
+}
+
+.content-block {
+    width: 168px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content-block-background {
+    background: url("../assets/img/blue-dots-background.svg");
+    opacity: 0.1;
+    width: 168px;
+    height: 116px;
+}
+
+.content-block img {
+    height: 56px;
+    width: 46px;
+    z-index: 100;
+    position: absolute;
+}
+
+a {
+    background: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

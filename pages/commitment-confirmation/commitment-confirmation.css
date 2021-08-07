@@ -1,0 +1,26 @@
+@import url("../styles.css");
+
+.general-button {
+    margin-top: 32px;
+}
+
+.h1-content {
+    margin-top: 33px;
+    width: 479px;
+}
+
+.span-content {
+    width: 500px;
+    max-width: 500px;
+    display: flex;
+}
+
+.commitment-confirmation-content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 192px;
+    margin-top: 32px;
+}
+
+
+
