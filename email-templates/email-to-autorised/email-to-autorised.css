@@ -1,0 +1,11 @@
+@import url("../email-template.css");
+
+.email-template {
+    min-height: 632px;
+    height: 632px;
+}
+
+.content-table-center {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
