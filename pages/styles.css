@@ -87,7 +87,10 @@ footer {
     line-height: 16px;
     margin: 3px 0;
 }
-
+.form-input label {
+    max-width: 360px;
+    width: 100%;
+}
 .form-input input {
     max-width: 360px;
     width: 100%;
@@ -180,8 +183,8 @@ footer {
 }
 
 .content-block {
-    width: 168px;
-    height: 116px;
+    width: max-content;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,3 +211,4 @@ a {
     text-decoration: none;
     text-transform: capitalize;
 }
+
