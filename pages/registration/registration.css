@@ -412,6 +412,7 @@ a {
         padding: 16px;
         box-sizing: border-box;
         width: 100%;
+        background: white;
     }
 
     .registration-form {
@@ -451,6 +452,7 @@ a {
 
     .error-hint-block {
         padding: 16px;
+        margin-top: 0;
     }
 
     .error-hint-block .error-hint-block-left {
