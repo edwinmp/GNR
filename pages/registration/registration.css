@@ -187,6 +187,7 @@
     box-sizing: border-box;
     border: 1px solid #CB410B;
     margin: 32px 0;
+    border-radius: 4px;
 }
 
 .error-hint-block .span-content:first-of-type {
@@ -437,7 +438,7 @@ a {
     }
 
     .authorised-representative .hint-top {
-        min-height: 250px;
+        min-height: 320px;
     }
 
     .authorised-representative .hint-top img {
