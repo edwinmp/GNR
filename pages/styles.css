@@ -87,10 +87,12 @@ footer {
     line-height: 16px;
     margin: 3px 0;
 }
+
 .form-input label {
     max-width: 360px;
     width: 100%;
 }
+
 .form-input input {
     max-width: 360px;
     width: 100%;
@@ -153,6 +155,18 @@ footer {
     cursor: pointer;
 }
 
+.general-button:hover {
+    background: #007495;
+}
+
+.general-button-small:hover {
+    background: #007495;
+}
+
+.general-button-additional:hover {
+    background: #007495;
+}
+
 .bottom-additional-content {
     display: flex;
     justify-content: center;
@@ -212,3 +226,14 @@ a {
     text-transform: capitalize;
 }
 
+.password-block {
+    position: relative;
+}
+
+.password-block img {
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}

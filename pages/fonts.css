@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'Averta-Regular';
-    src: url('../assets/fonts/Averta.ttf') format('truetype'),
-    url('../assets/fonts/Averta-Bold.woff') format('woff');
+    src: url('../assets/fonts/AvertaStd-Regular.ttf') format('truetype'),
+    url('../assets/fonts/AvertaStd-Regular.woff') format('woff'),
+    url('../assets/fonts/AvertaStd-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Averta-Bold';
-    src: url('../assets/fonts/Averta-Bold.ttf') format('truetype'),
-    url('../assets/fonts/Averta-Bold.woff') format('woff');
+    src: url('../assets/fonts/AvertaStd-Bold.ttf') format('truetype'),
+    url('../assets/fonts/AvertaStd-Bold.woff') format('woff'),
+    url('../assets/fonts/AvertaStd-Bold.otf') format('opentype');
 }

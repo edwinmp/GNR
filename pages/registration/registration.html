@@ -5,23 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="registration.css">
-    <script src="registration.js"></script>
 </head>
 <body>
 <header>
     <img class="logo-img" src="../../assets/img/logo-img.png" alt="">
-    <div>
-        <a href="../forgot-password/forgot-password.html">forgot password</a>
-        <a href="../commitment-confirmation/commitment-confirmation.html">commitment confirmation</a>
-
-        <a href="../new-password/new-password.html">new password</a>
-        <a href="../new-password-confirmed/new-password-confirmed.html">new password confirmed</a>
-        <a href="../password-email-sent/password-email-sent.html">password email sent</a>
-        <a href="../registration/registration.html">registration</a>
-        <a href="../sign-in/sign-in.html">sign in</a>
-        <a href="../survey-information/survey-information.html">survey information</a>
-        <a href="../thanks-for-registering/thanks-for-registering.html">thanks for registering</a>
-    </div>
     <button class="general-button-header">Sign Out</button>
 </header>
 <div class="content">
@@ -131,15 +118,15 @@
                     <div class="form-input">
                         <label for="country">Country</label>
                         <select id="country" size="1">
-                            <option value="1">p1</option>
-                            <option value="2">p2</option>
+                            <option value="1">Ukraine</option>
+                            <option value="2">Uganda</option>
                         </select>
                     </div>
                     <div class="form-input">
                         <label for="city">City</label>
                         <select id="city" size="1">
-                            <option value="1">p1</option>
-                             <option value="2">p2</option>
+                            <option value="1">Kyiv</option>
+                            <option value="2">Lviv</option>
                         </select>
                     </div>
                     <div class="form-input">
@@ -175,8 +162,8 @@
                                    placeholder="Designation, position and/or role of authorised representative">
                         </div>
                         <div class="form-input">
-                            <label for="password1">Telephone number of the authorised representative (optional)</label>
-                            <input id="password1" type="text" placeholder="Please enter your password">
+                            <label>Telephone number of the authorised representative (optional)</label>
+                            <input type="text" placeholder="">
                         </div>
                         <div class="form-input">
                             <label for="email1">Email</label>
@@ -186,9 +173,10 @@
                             </div>
                             <input id="email1" type="text" placeholder="Email of the authorised representative">
                         </div>
-                        <div class="form-input">
-                            <label for="password2">Password</label>
-                            <input id="password2" type="text" placeholder="Please enter your password">
+                        <div class="form-input password-block">
+                            <label for="password1">Password</label>
+                            <input id="password1" type="text" placeholder="Please enter your password">
+                            <img src="../../assets/img/visibility-icon.png" alt="">
                         </div>
                         <div class="grey-line"></div>
                         <h3>Is the authorised representative also the point of contact for any future communication,
@@ -200,7 +188,6 @@
                                     <input checked type="radio" value="value1" name="group1">
                                 </div>
                                 <span>No</span>
-
                             </label>
                             <label>
                                 <div>
@@ -236,9 +223,9 @@
                                        placeholder="Designation, position and/or role of authorised representative">
                             </div>
                             <div class="form-input">
-                                <label for="password3">Telephone number of the authorised representative
+                                <label>Telephone number of the authorised representative
                                     (optional)</label>
-                                <input id="password3" type="text" placeholder="Please enter your password">
+                                <input type="text" placeholder="">
                             </div>
                             <div class="form-input">
                                 <label for="email2">Email</label>
@@ -251,17 +238,19 @@
                             </div>
                         </div>
                         <div class="checkbox-block">
-                            <div>
-                                <input type="checkbox" id="agree" name="agree">
-                                <label for="agree">By registering for an account, you agree to the Terms and Conditions
-                                    and Privacy Policy for the Global Nutrition Report, Nutrition Accessibility
+                            <label class="container">
+                                <label>By registering for an account, you agree to the <a href="">Terms and
+                                    Conditions</a>
+                                    and <a href="">Privacy Policy</a> for the Global Nutrition Report, Nutrition Accessibility
                                     Framework platform</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="email_receive" name="email_receive">
-                                <label for="email_receive">I agree to receive emails from Global Nutrition
-                                    Report</label>
-                            </div>
+                                <input type="checkbox" name="agree">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <label> I agree to receive emails from Global Nutrition Report</label>
+                                <input type="checkbox" name="email_receive">
+                                <span class="checkmark"></span>
+                            </label>
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 16px;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .thanks-for-registering-content {
@@ -91,6 +91,12 @@ b {
     margin-bottom: 16px;
 }
 
+.orange-btn-additional:hover {
+    color: white;
+    background: #C45308;
+    cursor: pointer;
+}
+
 .blue-btn-additional {
     width: 262px;
     height: 48px;
@@ -107,11 +113,18 @@ b {
     background: none;
 }
 
+.blue-btn-additional:hover {
+    color: white;
+    background: #007495;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 550px) {
     .thanks-for-registering-content {
         margin: 16px;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
 
     .content-block-background {
@@ -125,6 +138,8 @@ b {
 
     .component-content-left {
         padding-top: 0;
+        width: max-content;
+        position: absolute;
     }
 
     .h1-content {
@@ -138,12 +153,18 @@ b {
     .additional-content-bottom .span-content {
         width: 100%;
     }
-    .blue-dot-left-line{
+
+    .blue-dot-left-line {
         height: 200px;
     }
-    .additional-content-bottom{
+
+    .additional-content-bottom {
         margin: 0;
         margin-top: 16px;
         margin-left: 16px;
+    }
+
+    .component-content-center .h1-content {
+        margin-left: 80px;
     }
 }

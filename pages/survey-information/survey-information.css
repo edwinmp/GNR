@@ -95,14 +95,16 @@ b {
 }
 
 @media screen and (max-width: 550px) {
-    .component-content-bottom{
+    .component-content-bottom {
         padding: 16px;
         box-sizing: border-box;
         margin-bottom: 32px;
     }
-    .component-content-top{
+
+    .component-content-top {
         display: none;
     }
+
     .commitment-confirmation-content {
         margin: 16px;
     }
@@ -123,7 +125,12 @@ b {
     .h1-content {
         margin-top: 0;
     }
-    .general-button-small{
+
+    .general-button-small {
         width: 100%;
+    }
+
+    ul {
+        padding-left: 20px;
     }
 }

@@ -17,3 +17,13 @@
 .form-input:nth-of-type(1) {
     margin-bottom: 16px;
 }
+
+@media screen and (max-width: 550px) {
+    .sign-in-content {
+        margin-top: 16px;
+    }
+
+    .h1-content {
+        margin-top: 0;
+    }
+}
