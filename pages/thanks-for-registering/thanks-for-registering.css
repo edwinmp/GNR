@@ -25,7 +25,8 @@
 }
 
 .component-content-center {
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
 }
 
 .component-content-right {
@@ -109,6 +110,8 @@ b {
 @media screen and (max-width: 550px) {
     .thanks-for-registering-content {
         margin: 16px;
+        display: flex;
+        flex-direction: column;
     }
 
     .content-block-background {
@@ -126,5 +129,21 @@ b {
 
     .h1-content {
         margin-top: 0;
+    }
+
+    .general-button-small {
+        width: 100%;
+    }
+
+    .additional-content-bottom .span-content {
+        width: 100%;
+    }
+    .blue-dot-left-line{
+        height: 200px;
+    }
+    .additional-content-bottom{
+        margin: 0;
+        margin-top: 16px;
+        margin-left: 16px;
     }
 }

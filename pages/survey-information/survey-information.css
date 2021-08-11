@@ -29,7 +29,8 @@
 }
 
 .component-content-bottom {
-    width: 730px;
+    width: 100%;
+    max-width: 730px;
     font-family: Averta-Regular, sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -91,4 +92,38 @@ b {
     font-family: Averta-Regular, sans-serif;
     font-size: 16px;
     line-height: 24px;
+}
+
+@media screen and (max-width: 550px) {
+    .component-content-bottom{
+        padding: 16px;
+        box-sizing: border-box;
+        margin-bottom: 32px;
+    }
+    .component-content-top{
+        display: none;
+    }
+    .commitment-confirmation-content {
+        margin: 16px;
+    }
+
+    .content-block-background {
+        width: 64px;
+        height: 64px;
+    }
+
+    .content-block-background img {
+        height: 32px;
+    }
+
+    .component-content-left {
+        padding-top: 0;
+    }
+
+    .h1-content {
+        margin-top: 0;
+    }
+    .general-button-small{
+        width: 100%;
+    }
 }

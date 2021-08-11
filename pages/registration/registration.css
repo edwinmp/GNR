@@ -311,11 +311,66 @@ input[type='radio']:checked::after {
 .form-hint {
     width: 100%;
 }
-.checkbox-block{
+
+.checkbox-block {
     margin-top: 32px;
 }
-.checkbox-block div:first-child{
+
+.checkbox-block div:first-child {
     margin-bottom: 16px;
-}.checkbox-block div:last-child{
+}
+
+.checkbox-block div:last-child {
     margin-bottom: 32px;
+}
+
+@media screen and (max-width: 550px) {
+    .component-content-bottom {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .registration-form {
+        margin-bottom: 0;
+    }
+
+    .component-content-top {
+        display: none;
+    }
+
+    .full-name-block {
+        flex-direction: column;
+    }
+
+    .full-name-block .form-input {
+        width: 100%;
+    }
+
+    .full-name-block .form-input:first-child {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .authorised-representative .hint-top {
+        min-height: 250px;
+    }
+
+    .authorised-representative .hint-top img {
+        width: 32px;
+        margin-right: 16px;
+        height: 100%;
+    }
+
+    .contact-point-block .hint-top {
+        min-height: 105px;
+    }
+
+    .error-hint-block {
+        padding: 8px;
+    }
+
+    .general-button-small {
+        width: 100%;
+    }
 }
