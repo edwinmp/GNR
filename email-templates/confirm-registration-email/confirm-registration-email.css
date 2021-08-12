@@ -1,0 +1,21 @@
+@import url("../email-template.css");
+
+.content-table-footer {
+    margin-top: 0;
+}
+
+.content-table-footer p {
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+.content-table-center {
+    margin-bottom: 0;
+}
+
+.small-button {
+    margin-bottom: 24px;
+    padding: 0 25px;
+    width: 114px;
+    min-width: 130px;
+}

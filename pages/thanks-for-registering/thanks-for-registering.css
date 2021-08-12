@@ -27,6 +27,7 @@
 .component-content-center {
     max-width: 550px;
     width: 100%;
+    padding-right: 16px;
 }
 
 .component-content-right {
@@ -37,6 +38,7 @@
 
 .general-button-small {
     width: 172px;
+    margin-top: 16px;
 }
 
 b {
@@ -166,5 +168,6 @@ b {
 
     .component-content-center .h1-content {
         margin-left: 80px;
+        padding-right: 0;
     }
 }
