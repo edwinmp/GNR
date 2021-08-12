@@ -308,7 +308,7 @@ input[type='radio']:checked::after {
     margin-bottom: 16px;
 }
 
-.authorised-representative-block .form-input:nth-child(3),.form-input:nth-child(4), .form-input:nth-child(5), .form-input:nth-child(6) {
+.authorised-representative-block .form-input:nth-child(3), .form-input:nth-child(4), .form-input:nth-child(5), .form-input:nth-child(6) {
     margin-top: 16px;
 }
 
@@ -377,6 +377,7 @@ input[type='radio']:checked::after {
 
 .container input:checked ~ .checkmark {
     background-color: #C45308;
+    border-color: #C45308;
 }
 
 .checkmark:after {
@@ -406,6 +407,20 @@ a {
     color: #C45308;
     font-weight: bold;
     font-family: Averta-Bold, sans-serif;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    height: 34px;
+    background: url('../../assets/img/caret-select-icon.png') no-repeat right;
+    -webkit-appearance: none;
+    background-position-x: calc(100% - 16px);
+}
+
+select:focus {
+    outline: none !important;
+    border: 1px solid #C45308;
 }
 
 @media screen and (max-width: 550px) {
