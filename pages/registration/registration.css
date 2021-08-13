@@ -422,6 +422,10 @@ select:focus {
     border: 1px solid #C45308;
 }
 
+.error-hint-block-right ul {
+    padding-left: 26px;
+}
+
 @media screen and (max-width: 550px) {
     .component-content-bottom {
         padding: 16px;

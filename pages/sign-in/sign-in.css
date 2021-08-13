@@ -98,10 +98,6 @@ input:invalid {
     border: 2px solid red;
 }
 
-input[type="email"]:invalid {
-    border: 1px solid blue;
-}
-
 .error-hint-block {
     display: none;
 }

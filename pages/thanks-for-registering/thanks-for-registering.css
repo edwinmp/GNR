@@ -146,6 +146,7 @@ b {
 
     .h1-content {
         margin-top: 0;
+        width: calc(100% - 112px);
     }
 
     .general-button-small {

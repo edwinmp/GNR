@@ -240,6 +240,10 @@ input:focus {
     border: 1px solid #C45308;
 }
 
+.error-hint-block {
+    border-radius: 4px;
+}
+
 @media screen and (max-width: 550px) {
     .h1-content {
         font-size: 24px;
