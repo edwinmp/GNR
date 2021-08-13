@@ -26,7 +26,6 @@
 
 .component-content-bottom {
     width: 730px;
-
 }
 
 .registration-form {
@@ -429,6 +428,10 @@ select:focus {
         box-sizing: border-box;
         width: 100%;
         background: white;
+    }
+
+    .error-hint-block-right ul {
+        padding-left: 26px;
     }
 
     .registration-form {
