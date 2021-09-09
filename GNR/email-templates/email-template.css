@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #475C6D;
+}
+
+body {
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.email-template {
+    height: max-content;
+    min-height: 706px;
+    max-width: 600px;
+    width: 100%;
+    background: white;
+}
+
+.header td {
+    height: 45px;
+    background: #E0E6EE;
+}
+
+.footer td {
+    height: 135px;
+    background: #E0E6EE;
+}
+
+.footer-table td {
+    height: 25px;
+    text-align: center;
+}
+
+.footer-table img {
+    margin-right: 16px;
+}
+
+.footer-table p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.header p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content-table {
+    height: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.small-button {
+    width: max-content;
+    min-width: 158px;
+    height: 52px;
+    background: #BC490C;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.outline-button {
+    width: 459px;
+    height: 52px;
+    border: 1px solid #007495;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    color: #007495;
+    background: white;
+}
+
+.content-table-center {
+    border-top: 2px solid #F1F3F7;
+    margin-bottom: 24px;
+}
+
+.content-table-footer {
+    margin-top: 24px;
+    border-top: 2px solid #F1F3F7;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #475C6D;
+    line-height: 21px;
+}
+
+h3 {
+    color: #475C6D;
+    font-family: sans-serif;
+}

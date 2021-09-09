@@ -1,0 +1,9 @@
+@import url("../email-template.css");
+
+.small-button {
+    padding: 0 20px;
+}
+
+.content-table-footer {
+    margin-top: 0;
+}

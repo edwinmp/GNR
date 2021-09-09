@@ -1,0 +1,137 @@
+@import url("../styles.css");
+
+.general-button {
+    margin-top: 32px;
+}
+
+.h1-content {
+    margin-top: 33px;
+    width: 100%;
+}
+
+.span-content {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.survey-information-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.general-button-small {
+    width: 133px;
+}
+
+.component-content-bottom {
+    width: 100%;
+    max-width: 730px;
+    font-family: Averta-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475C6D;
+    margin-bottom: 210px;
+}
+
+.component-content-bottom li {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.component-content-top {
+    width: 100%;
+    height: 348px;
+    background-image: url("../../assets/img/background-image.svg");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.component-content-top .h1-content {
+    font-family: Averta-Bold, sans-serif;
+    font-size: 55px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 32px;
+}
+
+.orange-dots-block {
+    background: url("../../assets/img/orange-dots-background.svg");
+    width: 220px;
+    height: 385px;
+}
+
+a {
+    color: #C45308;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.underline-span {
+    font-family: Averta-Bold, sans-serif;
+    color: #C45308;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.span-content > span {
+    white-space: nowrap;
+    padding-right: 4px;
+}
+
+b {
+    background: #FFF5F4;
+    font-family: Averta-Bold, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 550px) {
+    .component-content-bottom {
+        padding: 16px;
+        box-sizing: border-box;
+        margin-bottom: 32px;
+    }
+
+    .component-content-top {
+        display: none;
+    }
+
+    .commitment-confirmation-content {
+        margin: 16px;
+    }
+
+    .content-block-background {
+        width: 64px;
+        height: 64px;
+    }
+
+    .content-block-background img {
+        height: 32px;
+    }
+
+    .component-content-left {
+        padding-top: 0;
+    }
+
+    .h1-content {
+        margin-top: 0;
+    }
+
+    .general-button-small {
+        width: 100%;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+}

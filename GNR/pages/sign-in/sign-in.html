@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="sign-in.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", onload);
+        function onload() {
+            var form = document.getElementById("sign-in").elements;
+            document.getElementById("sign-in-submit").addEventListener("click", function () {
+                let showError = false;
+                for (let i = 0; i < form.length; i++) {
+                    if (form[i].nodeName === "INPUT") {
+                        if (form[i].value.length === 0) {
+                            if (form[i].type === "email" && !showError) {
+                                showError = true;
+                                document.getElementById("error-hint-block").style.display = 'flex';
+                                document.getElementById("error-header").textContent = "Email not recognised";
+                                document.getElementById("error-paragraph1").textContent = "The username you entered was not recognised. Please check and try again. The username must be the email address for the authorised representative.";
+                                document.getElementById("error-paragraph2").textContent = "If you continue to experience difficulties, please contact the Global Nutrition Report at <b>naf@globalnutritionreport.org</b> or via the website.";
+                            } else if (!showError) {
+                                showError = true;
+                                document.getElementById("error-hint-block").style.display = 'flex';
+                                document.getElementById("error-header").textContent = "Password not recognised";
+                                document.getElementById("error-paragraph1").textContent = "The password you entered was not recognised.Please check and try again.";
+                                document.getElementById("error-paragraph2").textContent = "If you continue to experience difficulties, please contact the Global Nutrition Report at <b>naf@globalnutritionreport.org</b> or via the website.";
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<header>
+    <img class="logo-img" src="../../assets/img/logo-img.png" alt="">
+</header>
+<div class="content">
+    <div class="sign-in-content">
+        <div class="component-content-top">
+            <div id="error-hint-block" class="error-hint-block">
+                <div class="error-hint-block-left">
+                    <img src="../../assets/img/attention-errors-icon.svg" alt="">
+                </div>
+                <div class="error-hint-block-right">
+                    <h1 id="error-header" class="h1-content"></h1>
+                    <p id="error-paragraph1" class="span-content"></p>
+                    <p id="error-paragraph2" class="span-content"></p>
+                </div>
+            </div>
+            <form id="sign-in" class="component-content-bottom">
+                <h1 class="h1-content">Sign In</h1>
+                <div class="form-input">
+                    <label for="user_name">User name</label>
+                    <div class="form-hint">This is the email of the authorized representative</div>
+                    <input id="user_name" type="email" placeholder="Please enter your email" required>
+                </div>
+                <div class="form-input password-block">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Please enter your password" required>
+                    <img src="../../assets/img/visibility-icon.png" alt="">
+                </div>
+                <button class="general-button-additional forgot-password">Forgot password?</button>
+                <button id="sign-in-submit" class="general-button">Sign in</button>
+                <div class="bottom-additional-content">
+                    <span>Don't have an account?</span>
+                    <button class="general-button-additional">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <span>© Copyright 2018, Global Nutrition Report</span>
+</footer>
+</body>
+</html>
